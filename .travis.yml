@@ -1,0 +1,10 @@
+dist: freebsd
+group: edge
+
+before_install:
+  -pkg install -y ssmtp
+  
+addons:
+ pkg:
+  - nettle
+  - tiny-network-utilities
