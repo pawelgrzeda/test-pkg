@@ -1,5 +1,10 @@
 dist: freebsd
 group: edge
+
+language:
+ - java
+before_install: 
+  - pkg search nettle
   
 addons:
  pkg:
