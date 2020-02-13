@@ -1,7 +1,5 @@
 dist: freebsd
 group: edge
 
-addons:
- pkg:
-  - nettle
-  - ssmtp
+before_install:
+ - sudo pkg install ssmtp
