@@ -2,4 +2,4 @@ dist: freebsd
 group: edge
 
 before_install:
- - sudo pkg install ssmtp
+ - sudo pkg -y install ssmtp
