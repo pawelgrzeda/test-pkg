@@ -3,3 +3,7 @@ group: edge
 
 before_install:
  - sudo pkg install -y ssmtp
+
+addons: 
+ pkg:
+  - ssmtp
